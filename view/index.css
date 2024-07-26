@@ -1,0 +1,70 @@
+.color-sidebar{
+    background-color: rgb(84, 174, 184);
+    min-height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 902px) {
+    .headerbox {
+        
+        width: 150px;
+
+    }
+}
+
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 240px;
+    margin-top: 30px;
+    
+}
+
+/* @media (max-width: 902px) {
+    .mainbox {
+      
+        margin-left: 50px;
+        width: 290px;
+        gap: 10px;
+        height: auto;
+        
+    }
+} */
+
+.boton-sidebar{
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.card-flex{
+    flex: 1 1 200px; /* Permite que las tarjetas crezcan y se reduzcan, con un tamaño base de 200px */
+    max-width: 300px; /* Tamaño máximo para las tarjetas */
+    min-width: 200px;
+}
+
+@media (max-width: 902px) {
+    .formbox{
+        display: flex;
+        margin-left: 50px;
+        width: 200px;
+        
+        
+    }
+}
+
+.mainbox{
+    cursor: pointer;
+}
+
+.image{
+    overflow: hidden;
+}
